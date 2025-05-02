@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Classplus Clone - Online Teaching Platform</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+  <body class="font-inter bg-gray-50 text-gray-800">
+    <!-- Header -->
+    <header class="bg-white shadow">
+      <div class="container mx-auto flex items-center justify-between p-4">
+        <a href="#" class="text-2xl font-bold text-indigo-600">Classplus Clone</a>
+        <nav class="space-x-6 text-gray-700">
+          <a href="#" class="hover:text-indigo-600 transition">Home</a>
+          <a href="#courses" class="hover:text-indigo-600 transition">Courses</a>
+          <a href="#live-classes" class="hover:text-indigo-600 transition">Live Classes</a>
+          <a href="#contact" class="hover:text-indigo-600 transition">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-indigo-600 text-white py-20">
+      <div class="container mx-auto px-4 text-center max-w-3xl">
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Grow Your Online Teaching Brand</h1>
+        <p class="text-lg md:text-xl mb-8">The best app for online teaching - Aapki Coaching Aapki App</p>
+        <div class="space-x-4">
+          <a href="#live-classes" class="bg-white text-indigo-600 font-semibold px-6 py-3 rounded shadow hover:bg-gray-100 transition">Start Teaching</a>
+          <a href="#courses" class="bg-indigo-500 bg-opacity-75 font-semibold px-6 py-3 rounded shadow hover:bg-opacity-100 transition">Explore Courses</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Live Teaching Section -->
+    <section id="live-classes" class="py-20 bg-white">
+      <div class="container mx-auto px-4 max-w-5xl">
+        <h2 class="text-3xl font-bold text-center mb-8">Live Teaching</h2>
+        <p class="text-center max-w-3xl mx-auto mb-12 text-gray-600">
+          Conduct live classes with real-time interaction. Integrate with popular platforms like Zoom and manage your batches efficiently.
+        </p>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-indigo-50 p-6 rounded shadow hover:shadow-lg transition">
+            <i class="fas fa-video text-indigo-600 text-4xl mb-4"></i>
+            <h3 class="font-semibold mb-2">Live Video Classes</h3>
+            <p>Stream live classes with high-quality video and audio.</p>
+          </div>
+          <div class="bg-indigo-50 p-6 rounded shadow hover:shadow-lg transition">
+            <i class="fas fa-users text-indigo-600 text-4xl mb-4"></i>
+            <h3 class="font-semibold mb-2">Batch Management</h3>
+            <p>Organize students into batches and manage schedules easily.</p>
+          </div>
+          <div class="bg-indigo-50 p-6 rounded shadow hover:shadow-lg transition">
+            <i class="fas fa-comments text-indigo-600 text-4xl mb-4"></i>
+            <h3 class="font-semibold mb-2">Interactive Q&A</h3>
+            <p>Engage students with live Q&A and chat features.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recorded Courses Section -->
+    <section id="courses" class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4 max-w-5xl">
+        <h2 class="text-3xl font-bold text-center mb-8">Recorded Courses</h2>
+        <p class="text-center max-w-3xl mx-auto mb-12 text-gray-600">
+          Sell your recorded courses online with easy-to-use course catalogs, filters, and previews.
+        </p>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+            <img src="https://via.placeholder.com/300x180" alt="Course 1" class="rounded mb-4" />
+            <h3 class="font-semibold mb-2">Course Title 1</h3>
+            <p>Brief description of the course content and benefits.</p>
+          </div>
+          <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+            <img src="https://via.placeholder.com/300x180" alt="Course 2" class="rounded mb-4" />
+            <h3 class="font-semibold mb-2">Course Title 2</h3>
+            <p>Brief description of the course content and benefits.</p>
+          </div>
+          <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+            <img src="https://via.placeholder.com/300x180" alt="Course 3" class="rounded mb-4" />
+            <h3 class="font-semibold mb-2">Course Title 3</h3>
+            <p>Brief description of the course content and benefits.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Payment Gateway Section -->
+    <section id="payment" class="py-20 bg-white">
+      <div class="container mx-auto px-4 max-w-md">
+        <h2 class="text-3xl font-bold text-center mb-8">Payment Gateway</h2>
+        <form class="bg-gray-100 p-6 rounded shadow space-y-4">
+          <div>
+            <label for="name" class="block mb-1 font-semibold">Name</label>
+            <input type="text" id="name" name="name" class="w-full p-2 border border-gray-300 rounded" placeholder="Your full name" required />
+          </div>
+          <div>
+            <label for="email" class="block mb-1 font-semibold">Email</label>
+            <input type="email" id="email" name="email" class="w-full p-2 border border-gray-300 rounded" placeholder="you@example.com" required />
+          </div>
+          <div>
+            <label for="course" class="block mb-1 font-semibold">Course Selection</label>
+            <select id="course" name="course" class="w-full p-2 border border-gray-300 rounded" required>
+              <option value="">Select a course</option>
+              <option value="course1">Course Title 1</option>
+              <option value="course2">Course Title 2</option>
+              <option value="course3">Course Title 3</option>
+            </select>
+          </div>
+          <div>
+            <label for="payment" class="block mb-1 font-semibold">Payment Details</label>
+            <input type="text" id="payment" name="payment" class="w-full p-2 border border-gray-300 rounded" placeholder="Card number or payment info" required />
+          </div>
+          <button type="submit" class="w-full bg-indigo-600 text-white font-semibold py-3 rounded hover:bg-indigo-700 transition">Pay Now</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Student Interaction Section -->
+    <section id="student-interaction" class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4 max-w-4xl">
+        <h2 class="text-3xl font-bold text-center mb-8">Student Interaction</h2>
+        <div class="bg-white p-6 rounded shadow max-w-3xl mx-auto">
+          <div class="mb-4">
+            <textarea id="chat-input" rows="3" class="w-full p-3 border border-gray-300 rounded resize-none" placeholder="Type your message here..."></textarea>
+          </div>
+          <button id="send-btn" class="bg-indigo-600 text-white px-6 py-2 rounded hover:bg-indigo-700 transition">Send</button>
+          <div id="chat-messages" class="mt-6 max-h-64 overflow-y-auto space-y-4">
+            <!-- Chat messages will appear here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
